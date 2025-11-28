@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Implementation Practice</title>
+
+    <!-- Internal -->
+    <style>
+        .internal-box {
+            width: 250px;
+            padding: 10px;
+            background-color: lightgreen;
+            border: 2px solid green;
+            margin-bottom: 20px;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>CSS Implementation Ways</h1>
+
+    <!-- Inlike CSS -->
+    <div style="background-color: yellow; padding: 10px; width: 250px; margin-bottom: 20px;">
+        This box uses <b>Inline CSS</b>.
+    </div>
+
+    <!-- Internal CSS -->
+    <div class="internal-box">
+        This box uses <b>Internal CSS</b>.
+    </div>
+
+    <!-- External CSS -->
+    <div class="external-box">
+        This box uses <b>External CSS</b>.
+    </div>
+
+</body>
+</html>
